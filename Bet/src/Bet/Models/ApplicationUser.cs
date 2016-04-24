@@ -12,5 +12,6 @@ namespace Bet.Models
         public string Firstname { get; set; }
         public string Surname { get; set; }
 
+
     }
 }

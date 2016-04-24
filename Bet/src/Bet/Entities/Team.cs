@@ -16,5 +16,7 @@ namespace Bet.Entities
         public ICollection<Player> Players { get; set; }
 
         public ICollection<TeamGame> TeamGames { get; set; }
+
+        public bool HomeTeam { get; set; }
     }
 }

@@ -11,7 +11,8 @@ namespace Bet.Entities
 
         public DateTime Date { get; set; }
 
-        public string Result { get; set; }
+        public int HomeGoals { get; set; }
+        public int AwayGoals { get; set; }
 
         public ICollection<TeamGame> TeamGames { get; set; }
 
